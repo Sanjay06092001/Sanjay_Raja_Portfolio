@@ -11,7 +11,7 @@ const Hero = () => {
           <div className="md:w-1/2 animate-fade-in" style={{ animationDelay: '0.2s' }}>
             <img 
               // src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop&crop=faces&q=80" 
-              src='public/shared image (2)-modified.png'
+              src='/profile_picture.png'
               alt="Sanjay Raja" 
               className="rounded-full w-60 h-60 mx-auto md:mx-0 object-cover border-4 border-white shadow-lg"
             />
