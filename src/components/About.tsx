@@ -18,8 +18,8 @@ const About = () => {
   ];
   
   return (
-    <section id="about" className="bg-white py-16">
-      <div className="section-container">
+    <section id="about" className="bg-white py-8">
+      <div className="section-container py-0">
         <h2 className="section-title">About Me</h2>
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mt-10">
