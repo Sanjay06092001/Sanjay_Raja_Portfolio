@@ -41,8 +41,8 @@ const Projects = () => {
   ];
 
   return (
-    <section id="projects" className="bg-portfolio-gray-light py-16">
-      <div className="section-container">
+    <section id="projects" className="bg-portfolio-gray-light py-8">
+      <div className="section-container py-0">
         <h2 className="section-title">Projects</h2>
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-10">
