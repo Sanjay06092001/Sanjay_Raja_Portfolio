@@ -6,7 +6,7 @@ import { ArrowDown } from 'lucide-react';
 const Hero = () => {
   return (
     <section id="home" className="min-h-screen flex items-center bg-gradient-to-b from-portfolio-gray-light to-white pt-16">
-      <div className="container mx-auto px-4 py-12 md:py-20">
+      <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row items-center gap-10">
           <div className="md:w-1/2 animate-fade-in" style={{ animationDelay: '0.2s' }}>
             <img 
