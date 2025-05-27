@@ -47,8 +47,8 @@ const Skills = () => {
   ];
 
   return (
-    <section id="skills" className="bg-white py-16">
-      <div className="section-container">
+    <section id="skills" className="bg-white py-8">
+      <div className="section-container py-0">
         <h2 className="section-title">Skills</h2>
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-10">
