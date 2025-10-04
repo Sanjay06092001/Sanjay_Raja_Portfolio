@@ -22,22 +22,22 @@ const Projects = () => {
       role: "Full Stack Developer",
       image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=500&h=350&fit=crop&q=80"
     },
-    {
+        {
       id: 3,
+      title: "AI-Assisted Code Generation & Repository Integration Platform",
+      description: ": Develop a front-end application that interacts with a Python-based backend to generate, display, and manage source code dynamically, with integrated authentication and version control operations.",
+      technologies: ["React.js", "TypeScript", "Tailwind CSS", "Zustand"],
+      role: "Frontend Developer",
+      image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=500&h=350&fit=crop&q=80"
+    },
+    {
+      id: 4,
       title: "Test Case Generation from Software Requirements",
       description: ": Create a system to analyze uploaded software requirements and automatically generate test cases in traditional or Gherkin formats.",
       technologies: ["React", "Typescript", "Tailwind CSS", "Node.js", "Express.js", "SQL Server"],
       role: "Full Stack Developer",
       image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=500&h=350&fit=crop&q=80"
     },
-    // {
-    //   id: 4,
-    //   title: "Performance Benchmarking Tool",
-    //   description: "Developed a tool to measure and compare application performance metrics, identifying bottlenecks and providing optimization recommendations.",
-    //   technologies: ["JavaScript", "Node.js", "Grafana", "Prometheus", "Redis"],
-    //   role: "Backend Developer",
-    //   image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=500&h=350&fit=crop&q=80"
-    // }
   ];
 
   return (
@@ -45,7 +45,7 @@ const Projects = () => {
       <div className="section-container py-0">
         <h2 className="section-title">Projects</h2>
         
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-10">
           {projects.map((project, index) => (
             <Card key={project.id} className="overflow-hidden hover:shadow-lg transition-shadow animate-fade-in" style={{ animationDelay: `${0.2 + index * 0.1}s` }}>
               <div className="h-48 overflow-hidden">

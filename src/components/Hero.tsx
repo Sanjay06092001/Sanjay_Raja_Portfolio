@@ -25,7 +25,7 @@ const Hero = () => {
               Software Developer
             </h2>
             <p className="text-lg text-gray-600 max-w-lg">
-            Passionate full-stack web developer with 2 years of experience in building scalable and performant web applications
+            Passionate full-stack web developer with 3 years of experience in building scalable and performant web applications
             </p>
             <div className="flex flex-wrap gap-4 justify-center md:justify-start pt-4">
               <Button className="bg-portfolio-blue hover:bg-portfolio-blue-dark text-white" asChild>

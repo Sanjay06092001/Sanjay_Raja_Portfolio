@@ -11,17 +11,25 @@ const Skills = () => {
         { name: "JavaScript", level: 70 },
         { name: "TypeScript", level: 80 },
         { name: "HTML/CSS", level: 90 },
-        { name: "Responsive Design", level: 80 }
+        { name: "Responsive Design", level: 80 },
+        { name: "Tailwind CSS", level: 80 },
+        { name: "Bootstrap", level: 70 },
+        { name: "Material-UI", level: 70 },
+        { name: "Next.js", level: 70 },
+        { name: "Redux", level: 80 }
       ]
     },
     {
       name: "Backend",
       skills: [
         { name: "Node.js", level: 70 },
-        // { name: "Python", level: 75 },
         { name: "Express", level: 75 },
         { name: "RESTful APIs", level: 90 },
-        // { name: "Microservices", level: 70 }
+        { name: "Next.js", level: 70 },
+        { name: "API Development (REST)", level: 80 },
+        { name: "Agent Development", level: 60 },
+        { name: "Node file system", level: 70 },
+        { name: "Authentication & Authorization", level: 90 }
       ]
     },
     {
@@ -29,8 +37,7 @@ const Skills = () => {
       skills: [
         { name: "MSSQL", level: 80 },
         { name: "SQL", level: 70 },
-        // { name: "PostgreSQL", level: 70 },
-        // { name: "Redis", level: 65 },
+        { name: "PostgreSQL", level: 70 },
         { name: "Database Design", level: 70 }
       ]
     },
@@ -39,9 +46,16 @@ const Skills = () => {
       skills: [
         { name: "Git", level: 80 },
         { name: "Selenium", level: 75 },
-        // { name: "Jest/Cypress", level: 85 },
+        { name: "Jest", level: 70 },
         { name: "Agile/Scrum", level: 90 },
-        { name: "CI/CD", level: 50 }
+        { name: "CI/CD", level: 50 },
+        { name: "Docker", level: 60 },
+        { name: "Postman", level: 80 },
+        { name: "Appium", level: 50 },
+        { name: "Figma", level: 60 },
+        { name: "Swagger", level: 60 },
+        { name: "Appium Inspector", level: 60 },
+        { name: "Insomnia", level: 70 }
       ]
     }
   ];

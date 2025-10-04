@@ -15,6 +15,31 @@ const About = () => {
     { name: 'SQL', category: 'database' },
     { name: 'Selenium', category: 'testing' },
     { name: 'Git', category: 'tools' },
+    { name: 'Next.js', category: 'frontend' },
+    { name: 'Jest', category: 'testing' },
+    { name: 'Next.js', category: 'backend' },
+    { name: 'Playwright', category: 'tools' },
+    { name: 'Appium', category: 'tools' },
+    { name: 'Postman', category: 'tools' },
+    { name: 'Figma', category: 'tools' },
+    { name: 'Swagger', category: 'tools' },
+    { name: 'Agile Methodologies', category: 'tools' },
+    { name: 'Scrum', category: 'tools' },
+    { name: 'CI/CD', category: 'tools' },
+    { name: 'Azure DevOps', category: 'tools' },
+    { name: 'Docker', category: 'tools' },
+    { name: 'PostgreSQL', category: 'database' },
+    { name: 'Tailwind CSS', category: 'frontend' },
+    { name: 'Bootstrap', category: 'frontend' },
+    { name: 'Material-UI', category: 'frontend' },
+    { name: 'Redux', category: 'frontend' },
+    { name: 'Ant Design', category: 'frontend' },
+    { name: 'API Development (REST)', category: 'backend' },
+    { name: 'Agent development', category: 'backend' },
+    { name: 'Node file system', category: 'backend' },
+    { name: 'JWT', category: 'backend' },
+    { name: 'Appium Inspector', category: 'tools' },
+    { name: 'Insomnia', category: 'tools' }
   ];
   
   return (
@@ -26,7 +51,7 @@ const About = () => {
           <div className="space-y-6 animate-fade-in" style={{ animationDelay: '0.2s' }}>
             <h3 className="text-2xl font-semibold text-portfolio-blue-dark">Background</h3>
             <p className="text-gray-700">
-              I'm a software developer with 2 years of experience specializing in web application development and testing automation. My passion lies in creating efficient, maintainable code and building tools that solve real-world problems.
+              I'm a software developer with 3 years of experience specializing in web application development and testing automation. My passion lies in creating efficient, maintainable code and building tools that solve real-world problems.
             </p>
             
             <h3 className="text-2xl font-semibold text-portfolio-blue-dark">Career Objective</h3>
