@@ -1,0 +1,26 @@
+# Node
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Vite
+dist/
+.vite/
+
+# Environment variables
+.env*
+
+# IDE files
+.vscode/
+.DS_Store
+*.swp
+
+# TypeScript
+*.tsbuildinfo
+
+# Bun
+bun.lockb
